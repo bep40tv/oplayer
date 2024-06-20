@@ -1,0 +1,352 @@
+1
+00:00:00,389 --> 00:00:07,277
+Chúng tôi đã bắt đầu loạt bài hướng dẫn này bằng cách giới thiệu phần mềm lấy nét, tạo hình ảnh bằng phần mềm này và tạo các ký tự nhất quán.
+
+2
+00:00:07,637 --> 00:00:15,547
+Những hình ảnh và ký tự nhất quán này là cần thiết cho những việc như tạo truyện, truyện tranh, tiểu thuyết đồ họa và người có ảnh hưởng AI.
+
+3
+00:00:15,947 --> 00:00:20,974
+Trong hướng dẫn này, tôi sẽ chỉ cho bạn nơi tìm các mô hình và cách cài đặt và sử dụng chúng trong Focus.
+
+4
+00:00:21,554 --> 00:00:27,242
+Ngoài ra, tôi sẽ chỉ cho bạn cách tạo các nhân vật với nhiều tư thế khác nhau và thay đổi tư thế của các nhân vật của bạn.
+
+5
+00:00:27,743 --> 00:00:33,250
+Hãy làm theo video này và các hướng dẫn trong tương lai để tìm hiểu cách sử dụng phần mềm tuyệt vời này và đừng bỏ lỡ các mẹo.
+
+6
+00:00:34,111 --> 00:00:37,914
+Trong các hướng dẫn trong tương lai, tôi sẽ chỉ cho bạn cách sử dụng những hình ảnh này trong thực tế.
+
+7
+00:00:38,495 --> 00:00:39,456
+Bắt đầu thôi.
+
+8
+00:00:44,952 --> 00:00:52,897
+Nếu bạn chưa từng sử dụng Focus trước đây và muốn tìm hiểu thêm về công cụ này, hãy tạm dừng video này, chuyển đến video trước đó, sau đó quay lại và tiếp tục.
+
+9
+00:00:53,137 --> 00:00:54,598
+Liên kết video ở trên.
+
+10
+00:00:55,518 --> 00:00:58,600
+Bạn có thể tải xuống các mô hình khác nhau và nhận các hình ảnh khác nhau với chúng.
+
+11
+00:01:00,623 --> 00:01:03,534
+Một nguồn tài nguyên tuyệt vời cho các mô hình và LORAS là Civet AI.
+
+12
+00:01:04,963 --> 00:01:06,484
+Nhấp vào tab Mô hình ở trên.
+
+13
+00:01:06,784 --> 00:01:12,546
+Để tiết kiệm thời gian và tìm các mô hình phù hợp cho công việc của bạn, hãy nhấp vào bộ lọc để phân tách các mô hình dựa trên nhu cầu của bạn.
+
+14
+00:01:12,926 --> 00:01:15,587
+Bạn có thể lọc các mô hình dựa trên các danh mục khác nhau.
+
+15
+00:01:15,988 --> 00:01:18,749
+Mô hình cơ sở tập trung hoạt động với các mô hình SDXL.
+
+16
+00:01:19,329 --> 00:01:20,793
+Tôi kiểm tra các loại phù hợp.
+
+17
+00:01:25,244 --> 00:01:26,447
+Chọn mô hình bạn muốn.
+
+18
+00:01:27,628 --> 00:01:31,757
+Bên dưới mỗi mô hình, bạn có thể thấy thư viện hình ảnh được tạo bằng mô hình này.
+
+19
+00:01:32,619 --> 00:01:36,287
+Khi tải xuống và sử dụng một mô hình, đừng quên đọc mô tả của mô hình đó.
+
+20
+00:01:37,329 --> 00:01:41,595
+Đôi khi bạn có thể tìm thấy lời nhắc được đề xuất hoặc lời nhắc tiêu cực và một số cài đặt.
+
+21
+00:01:42,517 --> 00:01:43,999
+Sử dụng chúng để có kết quả tốt hơn.
+
+22
+00:01:45,141 --> 00:01:49,248
+Đối với Windows, khi bạn cài đặt Focus, bạn sẽ giải nén một thư mục có tên này.
+
+23
+00:01:50,751 --> 00:01:54,407
+Bạn có thể tải xuống mô hình và đặt vào thư mục tiêu điểm trong đường dẫn này.
+
+24
+00:01:55,822 --> 00:01:59,506
+Nếu bạn muốn cài đặt mô hình trong Google Collab, bạn có thể sử dụng mã này.
+
+25
+00:01:59,746 --> 00:02:01,027
+Tôi đã đưa nó vào phần mô tả.
+
+26
+00:02:01,708 --> 00:02:06,913
+Trong mã này, hãy giữ nguyên phần này và thay đổi tên mô hình và liên kết mô hình dựa trên mô hình của bạn.
+
+27
+00:02:07,293 --> 00:02:08,418
+Sao chép tên mô hình.
+
+28
+00:02:08,699 --> 00:02:11,830
+Nếu tên chứa khoảng trắng, hãy sử dụng dấu gạch dưới thay thế.
+
+29
+00:02:14,505 --> 00:02:16,529
+Nhấp vào đây để sao chép liên kết mô hình.
+
+30
+00:02:17,030 --> 00:02:20,035
+Nhấp chuột phải vào mục tải xuống và chọn Sao chép địa chỉ liên kết.
+
+31
+00:02:21,378 --> 00:02:22,300
+Sử dụng liên kết này tại đây
+
+32
+00:02:24,190 --> 00:02:25,814
+Mở trang github tập trung.
+
+33
+00:02:26,615 --> 00:02:27,898
+Nhấp vào mở trong collab.
+
+34
+00:02:28,540 --> 00:02:29,782
+Nhấn thêm ô mã.
+
+35
+00:02:30,343 --> 00:02:32,809
+Dán mã mà bạn muốn tải xuống mô hình.
+
+36
+00:02:33,550 --> 00:02:37,017
+Thêm một ô mã khác và chèn dòng cuối cùng của mã vào đây.
+
+37
+00:02:37,437 --> 00:02:42,266
+Mã này tải giao diện tập trung, vì vậy chúng ta tải xuống mô hình trước rồi mới chạy phần mềm.
+
+38
+00:02:42,727 --> 00:02:44,430
+Bạn có thể tải xuống nhiều mô hình.
+
+39
+00:02:45,171 --> 00:02:46,896
+Thêm một ô mã mới cho mỗi mô hình.
+
+40
+00:02:47,518 --> 00:02:53,253
+Trước khi chạy mã, hãy nhấn Không thể lưu thay đổi hoặc nhấp vào Tệp và chọn Lưu bản sao và ổ đĩa.
+
+41
+00:02:54,659 --> 00:02:58,181
+Nhấp vào từng ô và đợi hoàn tất, sau đó chạy ô tiếp theo.
+
+42
+00:02:58,762 --> 00:03:01,724
+Việc tải xuống mô hình mất thời gian tùy thuộc vào kết nối internet của bạn.
+
+43
+00:03:02,524 --> 00:03:04,786
+Khi hoàn tất, bạn có thể thấy mô hình trong đường dẫn này.
+
+44
+00:03:08,422 --> 00:03:12,895
+Sau khi chạy ô cuối cùng, hãy nhấp vào liên kết trong phần URL công khai hoặc phần này.
+
+45
+00:03:15,191 --> 00:03:17,014
+Bạn có thể thấy mô hình đã tải xuống tại đây.
+
+46
+00:03:18,156 --> 00:03:21,601
+Khi bạn muốn sử dụng một mô hình cụ thể, bạn có thể bỏ chọn các kiểu.
+
+47
+00:03:22,262 --> 00:03:25,007
+Kiểm tra có và không có kiểu và xem sự khác biệt.
+
+48
+00:03:28,829 --> 00:03:39,222
+Nếu bạn cần thay đổi một số cài đặt dựa trên những gì họ nói trong mô tả mô hình mà tôi chỉ cho bạn trên trang mô hình, bạn có thể kiểm tra chế độ gỡ lỗi của nhà phát triển tại đây và thay đổi các cài đặt dựa trên những gì họ nói.
+
+49
+00:03:40,103 --> 00:03:45,369
+Sau khi tạo hình ảnh, bạn có thể nhấp vào nhật ký lịch sử và xem các cài đặt thế hệ trước của mình.
+
+50
+00:03:46,149 --> 00:03:49,393
+Bạn có thể lưu các cài đặt này và sử dụng chúng cho thế hệ khác.
+
+51
+00:03:52,378 --> 00:03:58,329
+Đôi khi bạn muốn tạo một hình ảnh với một tư thế đặc biệt và đôi khi bạn có một hình ảnh và bạn muốn thay đổi tư thế của nó.
+
+52
+00:03:58,789 --> 00:03:59,791
+Tôi sẽ cho bạn thấy cả hai.
+
+53
+00:04:00,292 --> 00:04:01,174
+Viết lời nhắc của bạn.
+
+54
+00:04:01,534 --> 00:04:05,201
+Mô tả nhân vật, tiêu điểm camera, ánh sáng, màu sắc,
+
+55
+00:04:05,561 --> 00:04:08,222
+và những gì bạn muốn dưới dạng các yếu tố riêng biệt để có kết quả tốt nhất.
+
+56
+00:04:09,063 --> 00:04:11,344
+Thay đổi cài đặt dựa trên hình ảnh bạn cần.
+
+57
+00:04:12,184 --> 00:04:16,026
+Trong phần nhắc nhở về hình ảnh, hãy tải lên hình ảnh mà bạn muốn sử dụng Pose.
+
+58
+00:04:16,386 --> 00:04:19,548
+Bạn có thể tải xuống bất kỳ hình ảnh nào từ Google hoặc các nền tảng khác.
+
+59
+00:04:20,308 --> 00:04:21,209
+Tôi sử dụng cái này
+
+60
+00:04:21,669 --> 00:04:22,549
+Đánh dấu vào Nâng cao.
+
+61
+00:04:22,990 --> 00:04:24,230
+Một số tùy chọn sẽ xuất hiện.
+
+62
+00:04:24,711 --> 00:04:27,392
+Để sử dụng tư thế hình ảnh, chọn Pyra Canny.
+
+63
+00:04:28,013 --> 00:04:29,414
+Tăng Dừng tại tham số.
+
+64
+00:04:29,974 --> 00:04:31,195
+Nhấn nút Tạo.
+
+65
+00:04:32,395 --> 00:04:33,236
+Xem kết quả.
+
+66
+00:04:35,000 --> 00:04:37,966
+Tạo thêm hình ảnh và chọn hình ảnh tốt nhất cho tác phẩm của bạn.
+
+67
+00:04:38,888 --> 00:04:39,930
+Nhấn Nhật ký lịch sử.
+
+68
+00:04:40,531 --> 00:04:42,775
+Lưu thông tin thế hệ của bạn nếu cần.
+
+69
+00:04:44,051 --> 00:04:47,034
+Tôi muốn sử dụng giao diện của hình ảnh này và tư thế của hình ảnh này.
+
+70
+00:04:47,594 --> 00:04:53,219
+Hình ảnh này có nền và có thể ảnh hưởng đến kết quả, vì vậy tốt hơn hết bạn nên xóa nền trước.
+
+71
+00:04:53,920 --> 00:04:55,565
+Mở trang web Xóa nền.
+
+72
+00:04:56,006 --> 00:04:58,333
+Bạn có thể xóa nền hình ảnh của mình một cách tự do.
+
+73
+00:04:58,955 --> 00:05:01,161
+Tải lên hình ảnh và tải về kết quả.
+
+74
+00:05:02,404 --> 00:05:03,305
+Viết lời nhắc của bạn.
+
+75
+00:05:04,086 --> 00:05:06,669
+Trong phần Nhắc hình ảnh, tải lên hình ảnh của bạn.
+
+76
+00:05:07,570 --> 00:05:14,057
+Đối với hình ảnh bạn muốn sử dụng giao diện, hãy chọn Hoán đổi khuôn mặt và đối với hình ảnh bạn muốn sử dụng tư thế, hãy chọn Piracani.
+
+77
+00:05:14,538 --> 00:05:17,366
+Ở thế hệ đầu tiên, tôi sử dụng cài đặt mặc định.
+
+78
+00:05:19,854 --> 00:05:20,957
+Nhấn nút Tạo.
+
+79
+00:05:24,272 --> 00:05:24,873
+Không tệ.
+
+80
+00:05:26,015 --> 00:05:29,641
+Tôi sẽ thay đổi lời nhắc và dừng ở tham số, sau đó kiểm tra lại.
+
+81
+00:05:32,228 --> 00:05:33,050
+Xem kết quả.
+
+82
+00:05:33,691 --> 00:05:35,495
+Một số bộ phận không tốt như bàn tay.
+
+83
+00:05:36,196 --> 00:05:38,100
+Chúng ta có thể chỉnh sửa chúng bằng công cụ inpaint.
+
+84
+00:05:38,481 --> 00:05:40,925
+Tôi sẽ chỉ cho bạn cách thực hiện điều này trong các hướng dẫn sau.
+
+85
+00:05:42,461 --> 00:05:45,846
+Nếu các bạn thấy video hữu ích thì hãy like và subscribe nhé.
+
+86
+00:05:46,727 --> 00:05:48,790
+Chia sẻ kinh nghiệm của bạn với chúng tôi trong phần bình luận.
+
+87
+00:05:49,711 --> 00:05:51,694
+Hãy theo dõi để có nhiều video hữu ích hơn nhé.
+
+88
+00:05:52,415 --> 00:05:53,296
+Cảm ơn đã xem.
+
